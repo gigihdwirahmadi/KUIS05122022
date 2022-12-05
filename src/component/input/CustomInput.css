@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 400px 300px auto;
+    background-color: black;
+}
+.form {
+    height: 540px;
+    width: 350px;
+    border: 1px solid ;
+    display: grid;
+   
+    align-items: center;
+
+  
+}
+.wall div{
+    margin: 10px;
+}
+.submit {
+    margin: 10px;
+}
+.wall{
+    display: grid;
+    justify-items: center;
+    border: 1px solid;
+    background-color: white;
+    padding: 40px;
+    height: 540px;
+   
+}
+.hasil{
+    background-color: white;
+    display: grid;
+    grid-template-rows: 40px auto ;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+.hasil1{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+.hasil2{
+    font-size: 40px;
+}

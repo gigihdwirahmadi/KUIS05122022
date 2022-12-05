@@ -1,0 +1,25 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.form {
+    height: 540px;
+    width: 350px;
+    border: 1px solid ;
+    display: grid;
+    align-items: center;
+    padding: 40px;
+}
+.wall div{
+    margin: 10px;
+}
+.submit {
+    margin: 10px;
+}
+.wall{
+    display: grid;
+    justify-items: center;
+}
