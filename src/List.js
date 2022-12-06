@@ -14,8 +14,8 @@ function List(props) {
     const addToDoList = (e) => {
         setToDoList(e.target.value);
     }
-    const deleteToDo = (index) => {
-       setAnswer(Answer.filter((it)=> t !== index ))
+    const deleteToDo = (value) => {
+       setAnswer(Answer.filter((t)=> t !== value ))
     }
     const show = () => {
         if (ToDoList != ""){
@@ -40,7 +40,9 @@ function List(props) {
                             
                             <div class="item bg-primary "id={index} >
                                 
-                                <Todo value={value} key={index} index={index} fungsi={deleteToDo} /></div>
+                                <Todo value={value} key={index} index={index} fungsi={() => {
+                                    deleteToDo(value)
+                                }} /></div>
                         )
                     })}
                 </div>
